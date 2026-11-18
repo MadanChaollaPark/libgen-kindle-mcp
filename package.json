@@ -1,0 +1,19 @@
+{
+  "name": "libgen-kindle-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Search libgen.xyz and send selected ebooks to your Kindle",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "linkedom": "0.18.15",
+    "nodemailer": "10.6.0",
+    "zod": "4.6.7"
+  }
+}
